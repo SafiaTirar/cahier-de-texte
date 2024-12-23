@@ -1,0 +1,138 @@
+/* Style global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2F855A;
+    margin-bottom: 24px;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #2F855A;
+    margin-bottom: 8px;
+}
+
+input, select, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #CBD5E0;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #38A169;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2F855A;
+}
+
+.alert {
+    background-color: #FFF5F5;
+    border-left: 5px solid #E53E3E;
+    color: #C53030;
+    padding: 10px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    border: 1px solid #CBD5E0;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #F0FFF4;
+    color: #2F855A;
+}
+
+table tr:nth-child(even) {
+    background-color: #F8F8F8;
+}
+/* Navbar styles */
+.header {
+    background-color: #2F855A;
+    color: white;
+    padding: 10px 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar .menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar .menu li a:hover {
+    color: #A0F0A0;
+}
+
+/* Footer styles */
+.footer {
+    text-align: center;
+    background-color: #E2E8F0;
+    padding: 10px 0;
+    color: #2D3748;
+    margin-top: 20px;
+}
+
